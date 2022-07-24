@@ -7,7 +7,7 @@
   sort = -committerdate
 
 [commit]
-  template = /Users/tigeryang/.stCommitMsg
+  template = ~/.gitmessage
 
 [core]
 	excludesfile = ~/.gitignore
