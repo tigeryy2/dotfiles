@@ -10,6 +10,7 @@
   template = ~/.gitmessage
 
 [core]
+	editor = vim
 	excludesfile = ~/.gitignore
 
   # Treat spaces before tabs and all kinds of trailing whitespace as an error.
