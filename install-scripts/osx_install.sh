@@ -27,6 +27,7 @@ create_symlink() {
 sudo rm -rf ~/.gitconfig > /dev/null 2>&1
 sudo rm -rf ~/.gitignore > /dev/null 2>&1
 sudo rm -rf ~/.gitmessage > /dev/null 2>&1
+sudo rm -rf ~/.zshrc > /dev/null 2>&1
 
 #==============
 # Create symlinks in the home folder
@@ -35,6 +36,7 @@ SYMLINKS=()
 SYMLINKS+=($(create_symlink ".gitconfig"))
 SYMLINKS+=($(create_symlink ".gitignore"))
 SYMLINKS+=($(create_symlink ".gitmessage"))
+SYMLINKS+=($(create_symlink ".zshrc"))
 
 #==============
 # Done
